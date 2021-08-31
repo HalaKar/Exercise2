@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imges/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.151);
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.box, .box2{
+    padding: 20px;
+    border: gray solid 3px;
+    border-radius: 20px 0 20px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.box h2, .box2 h2{
+    text-align: center;
+    color: rgb(255, 196, 0);
+}
+
+.box a, .box2 a{
+    margin-left: 830px;
+    text-decoration: none;
+    font-weight: 700;
+    color: red;
+}
+
+.box2{
+    border: gray dashed 3px;
+}
